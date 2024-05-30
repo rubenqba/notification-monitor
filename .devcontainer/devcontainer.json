@@ -1,0 +1,33 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  "features": {
+    // "ghcr.io/NicoVIII/devcontainer-features/pnpm:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "telemetry.enableTelemetry": false,
+        "redhat.telemetry.enabled": false,
+        "vulnCost.sendStatistics": false,
+        "editor.renderWhitespace": "all",
+        "editor.renderControlCharacters": true,
+        "editor.formatOnSave": true,
+        "files.insertFinalNewline": true
+      },
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "dsznajder.es7-react-js-snippets",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "bierner.github-markdown-preview",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+  // "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
+  // "workspaceFolder": "/workspace",
+  "forwardPorts": [3000]
+}
