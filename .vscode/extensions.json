@@ -3,9 +3,7 @@
     "streetsidesoftware.code-spell-checker",
     "editorconfig.editorconfig",
     "ms-azuretools.vscode-docker",
-    "tyriar.sort-lines",
     "m4ns0ur.base64",
-    "Codeium.codeium",
     "eamodio.gitlens",
     "yzhang.markdown-all-in-one",
     "shd101wyy.markdown-preview-enhanced",
@@ -13,11 +11,8 @@
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "redhat.vscode-yaml",
-    "Maarti.jenkins-doc",
-    "ivory-lab.jenkinsfile-support",
     "leodevbro.blockman",
     "mikestead.dotenv",
-    "42Crunch.vscode-openapi",
-    "ms-vscode.makefile-tools"
+    "42Crunch.vscode-openapi"
   ]
 }
